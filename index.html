@@ -178,166 +178,302 @@
 
                 <!-- How to Use Section -->
                 <div class="bg-white/60 backdrop-blur-lg rounded-3xl shadow-xl p-8 mb-12 border border-white/20">
-                    <div class="text-center mb-8">
-                        <div class="w-16 h-16 gradient-success rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4 shadow-lg">
-                            <i class="fas fa-question-circle"></i>
+                    <div class="text-center mb-12">
+                        <div class="w-20 h-20 gradient-success rounded-3xl flex items-center justify-center text-white text-4xl mx-auto mb-6 shadow-xl floating-animation">
+                            <i class="fas fa-play-circle"></i>
                         </div>
-                        <h3 class="text-3xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-4">
+                        <h3 class="text-4xl font-bold bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600 bg-clip-text text-transparent mb-4">
                             วิธีการใช้งาน ClassPay
                         </h3>
-                        <p class="text-gray-600 text-lg">เรียนรู้วิธีใช้งานระบบเก็บเงินห้องเรียนอย่างง่ายดาย</p>
+                        <p class="text-gray-600 text-xl max-w-2xl mx-auto leading-relaxed">
+                            เริ่มต้นใช้งานระบบเก็บเงินห้องเรียนที่ทันสมัยและใช้งานง่าย
+                        </p>
                     </div>
 
-                    <div class="grid md:grid-cols-2 gap-8">
-                        <!-- For Teachers -->
-                        <div class="space-y-6">
-                            <div class="flex items-center space-x-3 mb-6">
-                                <div class="w-12 h-12 gradient-primary rounded-xl flex items-center justify-center text-white text-xl shadow-lg">
-                                    <i class="fas fa-chalkboard-teacher"></i>
-                                </div>
-                                <h4 class="text-2xl font-bold text-gray-800">สำหรับครู/เหรัญญิก</h4>
-                            </div>
-                            
-                            <div class="space-y-4">
-                                <div class="flex items-start space-x-4 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl border border-purple-200">
-                                    <div class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="text-purple-600 font-bold text-sm">1</span>
-                                    </div>
-                                    <div>
-                                        <h5 class="font-semibold text-gray-800 mb-1">สมัครสมาชิกครู</h5>
-                                        <p class="text-gray-600 text-sm">ใช้อีเมลและรหัสผ่านในการสมัครสมาชิก</p>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-start space-x-4 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl border border-purple-200">
-                                    <div class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="text-purple-600 font-bold text-sm">2</span>
-                                    </div>
-                                    <div>
-                                        <h5 class="font-semibold text-gray-800 mb-1">เพิ่มข้อมูลนักเรียน</h5>
-                                        <p class="text-gray-600 text-sm">เพิ่มรายชื่อนักเรียนทีละคนหรือนำเข้าจาก Excel</p>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-start space-x-4 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl border border-purple-200">
-                                    <div class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="text-purple-600 font-bold text-sm">3</span>
-                                    </div>
-                                    <div>
-                                        <h5 class="font-semibold text-gray-800 mb-1">กำหนดสัปดาห์การจ่าย</h5>
-                                        <p class="text-gray-600 text-sm">ตั้งค่าสัปดาห์และจำนวนเงินที่ต้องเก็บ</p>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-start space-x-4 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl border border-purple-200">
-                                    <div class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="text-purple-600 font-bold text-sm">4</span>
-                                    </div>
-                                    <div>
-                                        <h5 class="font-semibold text-gray-800 mb-1">จัดการการจ่ายเงิน</h5>
-                                        <p class="text-gray-600 text-sm">อัพเดทสถานะการจ่ายเงินของนักเรียนแต่ละคน</p>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-start space-x-4 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl border border-purple-200">
-                                    <div class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="text-purple-600 font-bold text-sm">5</span>
-                                    </div>
-                                    <div>
-                                        <h5 class="font-semibold text-gray-800 mb-1">จัดการเงินห้อง</h5>
-                                        <p class="text-gray-600 text-sm">บันทึกการใช้จ่ายและติดตามยอดเงินคงเหลือ</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- For Students -->
-                        <div class="space-y-6">
-                            <div class="flex items-center space-x-3 mb-6">
-                                <div class="w-12 h-12 gradient-secondary rounded-xl flex items-center justify-center text-white text-xl shadow-lg">
-                                    <i class="fas fa-user-graduate"></i>
-                                </div>
-                                <h4 class="text-2xl font-bold text-gray-800">สำหรับนักเรียน</h4>
-                            </div>
-                            
-                            <div class="space-y-4">
-                                <div class="flex items-start space-x-4 p-4 bg-gradient-to-r from-pink-50 to-rose-50 rounded-xl border border-pink-200">
-                                    <div class="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="text-pink-600 font-bold text-sm">1</span>
-                                    </div>
-                                    <div>
-                                        <h5 class="font-semibold text-gray-800 mb-1">รับรหัสนักเรียนและรหัสผ่าน</h5>
-                                        <p class="text-gray-600 text-sm">ครูจะแจ้งรหัสนักเรียนและรหัสผ่านให้</p>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-start space-x-4 p-4 bg-gradient-to-r from-pink-50 to-rose-50 rounded-xl border border-pink-200">
-                                    <div class="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="text-pink-600 font-bold text-sm">2</span>
-                                    </div>
-                                    <div>
-                                        <h5 class="font-semibold text-gray-800 mb-1">เข้าสู่ระบบ</h5>
-                                        <p class="text-gray-600 text-sm">ใช้รหัสนักเรียนและรหัสผ่านเข้าสู่ระบบ</p>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-start space-x-4 p-4 bg-gradient-to-r from-pink-50 to-rose-50 rounded-xl border border-pink-200">
-                                    <div class="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="text-pink-600 font-bold text-sm">3</span>
-                                    </div>
-                                    <div>
-                                        <h5 class="font-semibold text-gray-800 mb-1">ตรวจสอบสถานะการจ่าย</h5>
-                                        <p class="text-gray-600 text-sm">ดูว่าจ่ายเงินสัปดาห์ปัจจุบันแล้วหรือยัง</p>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-start space-x-4 p-4 bg-gradient-to-r from-pink-50 to-rose-50 rounded-xl border border-pink-200">
-                                    <div class="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="text-pink-600 font-bold text-sm">4</span>
-                                    </div>
-                                    <div>
-                                        <h5 class="font-semibold text-gray-800 mb-1">ดูประวัติการจ่ายเงิน</h5>
-                                        <p class="text-gray-600 text-sm">ตรวจสอบประวัติการชำระเงินที่ผ่านมา</p>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-start space-x-4 p-4 bg-gradient-to-r from-pink-50 to-rose-50 rounded-xl border border-pink-200">
-                                    <div class="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                                        <span class="text-pink-600 font-bold text-sm">5</span>
-                                    </div>
-                                    <div>
-                                        <h5 class="font-semibold text-gray-800 mb-1">ดูสรุปเงินห้อง</h5>
-                                        <p class="text-gray-600 text-sm">ตรวจสอบการเงินของห้องทั้งหมด</p>
-                                    </div>
-                                </div>
-                            </div>
+                    <!-- Tab Navigation -->
+                    <div class="flex justify-center mb-10">
+                        <div class="flex space-x-2 bg-gray-100 rounded-2xl p-2">
+                            <button onclick="switchGuideTab('teacher')" id="teacherGuideTab" class="px-8 py-4 rounded-xl text-lg font-semibold transition-all duration-300 bg-white text-purple-600 shadow-lg">
+                                <i class="fas fa-chalkboard-teacher mr-3"></i>สำหรับครู
+                            </button>
+                            <button onclick="switchGuideTab('student')" id="studentGuideTab" class="px-8 py-4 rounded-xl text-lg font-semibold transition-all duration-300 text-gray-600 hover:text-purple-600">
+                                <i class="fas fa-user-graduate mr-3"></i>สำหรับนักเรียน
+                            </button>
                         </div>
                     </div>
 
-                    <!-- Tips Section -->
-                    <div class="mt-8 p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border border-blue-200">
-                        <div class="flex items-center space-x-3 mb-4">
-                            <div class="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center">
-                                <i class="fas fa-lightbulb text-blue-600 text-lg"></i>
+                    <!-- Teacher Guide -->
+                    <div id="teacherGuide" class="space-y-8">
+                        <div class="text-center mb-8">
+                            <div class="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4 shadow-lg">
+                                <i class="fas fa-chalkboard-teacher"></i>
                             </div>
-                            <h5 class="text-xl font-bold text-blue-800">เคล็ดลับการใช้งาน</h5>
+                            <h4 class="text-3xl font-bold text-gray-800 mb-2">คู่มือสำหรับครูและเหรัญญิก</h4>
+                            <p class="text-gray-600 text-lg">จัดการระบบเก็บเงินห้องอย่างมีประสิทธิภาพ</p>
                         </div>
-                        <div class="grid md:grid-cols-2 gap-4 text-sm text-blue-700">
-                            <div class="flex items-start space-x-2">
-                                <i class="fas fa-check-circle text-blue-500 mt-0.5"></i>
-                                <span>ระบบจะบันทึกข้อมูลแบบเรียลไทม์ ไม่ต้องกังวลเรื่องข้อมูลหาย</span>
+                        
+                        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <!-- Step 1 -->
+                            <div class="group bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-6 border-2 border-purple-200 hover:border-purple-300 transition-all duration-300 hover:shadow-xl card-hover">
+                                <div class="flex items-center space-x-4 mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform">
+                                        1
+                                    </div>
+                                    <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-user-plus text-purple-600 text-lg"></i>
+                                    </div>
+                                </div>
+                                <h5 class="text-xl font-bold text-gray-800 mb-3">สมัครสมาชิก</h5>
+                                <p class="text-gray-600 leading-relaxed">ใช้อีเมลและรหัสผ่านในการสมัครสมาชิกครู เพื่อเริ่มต้นใช้งานระบบ</p>
+                                <div class="mt-4 flex items-center text-purple-600 text-sm font-medium">
+                                    <i class="fas fa-clock mr-2"></i>
+                                    <span>ใช้เวลา 2 นาที</span>
+                                </div>
                             </div>
-                            <div class="flex items-start space-x-2">
-                                <i class="fas fa-check-circle text-blue-500 mt-0.5"></i>
-                                <span>สามารถใช้งานได้ทั้งมือถือและคอมพิวเตอร์</span>
+
+                            <!-- Step 2 -->
+                            <div class="group bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 border-2 border-blue-200 hover:border-blue-300 transition-all duration-300 hover:shadow-xl card-hover">
+                                <div class="flex items-center space-x-4 mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform">
+                                        2
+                                    </div>
+                                    <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-users text-blue-600 text-lg"></i>
+                                    </div>
+                                </div>
+                                <h5 class="text-xl font-bold text-gray-800 mb-3">เพิ่มนักเรียน</h5>
+                                <p class="text-gray-600 leading-relaxed">เพิ่มรายชื่อนักเรียนทีละคน หรือนำเข้าจาก Excel พร้อมกำหนดรหัสผ่าน</p>
+                                <div class="mt-4 flex items-center text-blue-600 text-sm font-medium">
+                                    <i class="fas fa-file-excel mr-2"></i>
+                                    <span>รองรับ Excel Import</span>
+                                </div>
                             </div>
-                            <div class="flex items-start space-x-2">
-                                <i class="fas fa-check-circle text-blue-500 mt-0.5"></i>
-                                <span>เหรัญญิกสามารถใช้งานได้เหมือนครู ยกเว้นการจัดการนักเรียน</span>
+
+                            <!-- Step 3 -->
+                            <div class="group bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-6 border-2 border-indigo-200 hover:border-indigo-300 transition-all duration-300 hover:shadow-xl card-hover">
+                                <div class="flex items-center space-x-4 mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform">
+                                        3
+                                    </div>
+                                    <div class="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-calendar-plus text-indigo-600 text-lg"></i>
+                                    </div>
+                                </div>
+                                <h5 class="text-xl font-bold text-gray-800 mb-3">กำหนดสัปดาห์</h5>
+                                <p class="text-gray-600 leading-relaxed">ตั้งค่าสัปดาห์การจ่ายและจำนวนเงินที่ต้องเก็บในแต่ละสัปดาห์</p>
+                                <div class="mt-4 flex items-center text-indigo-600 text-sm font-medium">
+                                    <i class="fas fa-coins mr-2"></i>
+                                    <span>กำหนดจำนวนเงินได้</span>
+                                </div>
                             </div>
-                            <div class="flex items-start space-x-2">
-                                <i class="fas fa-check-circle text-blue-500 mt-0.5"></i>
-                                <span>สามารถนำเข้าข้อมูลนักเรียนจาก Excel ได้อย่างง่ายดาย</span>
+
+                            <!-- Step 4 -->
+                            <div class="group bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border-2 border-green-200 hover:border-green-300 transition-all duration-300 hover:shadow-xl card-hover">
+                                <div class="flex items-center space-x-4 mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform">
+                                        4
+                                    </div>
+                                    <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-check-circle text-green-600 text-lg"></i>
+                                    </div>
+                                </div>
+                                <h5 class="text-xl font-bold text-gray-800 mb-3">จัดการการจ่าย</h5>
+                                <p class="text-gray-600 leading-relaxed">อัพเดทสถานะการจ่ายเงินของนักเรียน พร้อมระบุจำนวนเงินที่จ่ายจริง</p>
+                                <div class="mt-4 flex items-center text-green-600 text-sm font-medium">
+                                    <i class="fas fa-sync mr-2"></i>
+                                    <span>อัพเดทแบบเรียลไทม์</span>
+                                </div>
+                            </div>
+
+                            <!-- Step 5 -->
+                            <div class="group bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-6 border-2 border-emerald-200 hover:border-emerald-300 transition-all duration-300 hover:shadow-xl card-hover">
+                                <div class="flex items-center space-x-4 mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform">
+                                        5
+                                    </div>
+                                    <div class="w-10 h-10 bg-emerald-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-wallet text-emerald-600 text-lg"></i>
+                                    </div>
+                                </div>
+                                <h5 class="text-xl font-bold text-gray-800 mb-3">จัดการเงินห้อง</h5>
+                                <p class="text-gray-600 leading-relaxed">บันทึกการใช้จ่าย ติดตามยอดเงินคงเหลือ และดูประวัติการใช้เงิน</p>
+                                <div class="mt-4 flex items-center text-emerald-600 text-sm font-medium">
+                                    <i class="fas fa-chart-line mr-2"></i>
+                                    <span>รายงานแบบเรียลไทม์</span>
+                                </div>
+                            </div>
+
+                            <!-- Step 6 -->
+                            <div class="group bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-6 border-2 border-orange-200 hover:border-orange-300 transition-all duration-300 hover:shadow-xl card-hover">
+                                <div class="flex items-center space-x-4 mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform">
+                                        6
+                                    </div>
+                                    <div class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-crown text-orange-600 text-lg"></i>
+                                    </div>
+                                </div>
+                                <h5 class="text-xl font-bold text-gray-800 mb-3">กำหนดเหรัญญิก</h5>
+                                <p class="text-gray-600 leading-relaxed">เลือกนักเรียนเป็นเหรัญญิก เพื่อช่วยจัดการระบบเก็บเงินห้อง</p>
+                                <div class="mt-4 flex items-center text-orange-600 text-sm font-medium">
+                                    <i class="fas fa-user-shield mr-2"></i>
+                                    <span>สิทธิ์พิเศษสำหรับเหรัญญิก</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Student Guide -->
+                    <div id="studentGuide" class="hidden space-y-8">
+                        <div class="text-center mb-8">
+                            <div class="w-16 h-16 gradient-secondary rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4 shadow-lg">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <h4 class="text-3xl font-bold text-gray-800 mb-2">คู่มือสำหรับนักเรียน</h4>
+                            <p class="text-gray-600 text-lg">ตรวจสอบสถานะการจ่ายเงินและประวัติการชำระ</p>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                            <!-- Step 1 -->
+                            <div class="group bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-8 border-2 border-pink-200 hover:border-pink-300 transition-all duration-300 hover:shadow-xl card-hover">
+                                <div class="flex items-center space-x-4 mb-6">
+                                    <div class="w-14 h-14 bg-gradient-to-br from-pink-500 to-pink-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform">
+                                        1
+                                    </div>
+                                    <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-id-card text-pink-600 text-xl"></i>
+                                    </div>
+                                </div>
+                                <h5 class="text-2xl font-bold text-gray-800 mb-4">รับข้อมูลเข้าสู่ระบบ</h5>
+                                <p class="text-gray-600 leading-relaxed mb-4">ครูจะแจ้งรหัสนักเรียนและรหัสผ่านให้ เพื่อใช้ในการเข้าสู่ระบบ</p>
+                                <div class="bg-pink-100 rounded-xl p-4">
+                                    <div class="flex items-center text-pink-700 text-sm font-medium mb-2">
+                                        <i class="fas fa-info-circle mr-2"></i>
+                                        <span>ข้อมูลที่ต้องได้รับ:</span>
+                                    </div>
+                                    <ul class="text-pink-600 text-sm space-y-1 ml-4">
+                                        <li>• รหัสนักเรียน (เช่น 65001)</li>
+                                        <li>• รหัสผ่าน (เริ่มต้น: 123456)</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Step 2 -->
+                            <div class="group bg-gradient-to-br from-rose-50 to-pink-50 rounded-2xl p-8 border-2 border-rose-200 hover:border-rose-300 transition-all duration-300 hover:shadow-xl card-hover">
+                                <div class="flex items-center space-x-4 mb-6">
+                                    <div class="w-14 h-14 bg-gradient-to-br from-rose-500 to-rose-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform">
+                                        2
+                                    </div>
+                                    <div class="w-12 h-12 bg-rose-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-sign-in-alt text-rose-600 text-xl"></i>
+                                    </div>
+                                </div>
+                                <h5 class="text-2xl font-bold text-gray-800 mb-4">เข้าสู่ระบบ</h5>
+                                <p class="text-gray-600 leading-relaxed mb-4">ใช้รหัสนักเรียนและรหัสผ่านที่ได้รับจากครูเพื่อเข้าสู่ระบบ</p>
+                                <div class="bg-rose-100 rounded-xl p-4">
+                                    <div class="flex items-center text-rose-700 text-sm font-medium mb-2">
+                                        <i class="fas fa-lightbulb mr-2"></i>
+                                        <span>เคล็ดลับ:</span>
+                                    </div>
+                                    <p class="text-rose-600 text-sm">เลือกแท็บ "นักเรียน" ในหน้าเข้าสู่ระบบ</p>
+                                </div>
+                            </div>
+
+                            <!-- Step 3 -->
+                            <div class="group bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-8 border-2 border-purple-200 hover:border-purple-300 transition-all duration-300 hover:shadow-xl card-hover">
+                                <div class="flex items-center space-x-4 mb-6">
+                                    <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform">
+                                        3
+                                    </div>
+                                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-search text-purple-600 text-xl"></i>
+                                    </div>
+                                </div>
+                                <h5 class="text-2xl font-bold text-gray-800 mb-4">ตรวจสอบสถานะ</h5>
+                                <p class="text-gray-600 leading-relaxed mb-4">ดูสถานะการจ่ายเงินสัปดาห์ปัจจุบัน และข้อมูลการเงินของห้อง</p>
+                                <div class="bg-purple-100 rounded-xl p-4">
+                                    <div class="flex items-center text-purple-700 text-sm font-medium mb-2">
+                                        <i class="fas fa-eye mr-2"></i>
+                                        <span>สิ่งที่จะเห็น:</span>
+                                    </div>
+                                    <ul class="text-purple-600 text-sm space-y-1 ml-4">
+                                        <li>• สถานะการจ่ายเงิน</li>
+                                        <li>• จำนวนเงินที่ต้องจ่าย</li>
+                                        <li>• สรุปเงินห้องทั้งหมด</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Step 4 -->
+                            <div class="group bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 border-2 border-blue-200 hover:border-blue-300 transition-all duration-300 hover:shadow-xl card-hover">
+                                <div class="flex items-center space-x-4 mb-6">
+                                    <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform">
+                                        4
+                                    </div>
+                                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                        <i class="fas fa-history text-blue-600 text-xl"></i>
+                                    </div>
+                                </div>
+                                <h5 class="text-2xl font-bold text-gray-800 mb-4">ดูประวัติการจ่าย</h5>
+                                <p class="text-gray-600 leading-relaxed mb-4">ตรวจสอบประวัติการชำระเงินที่ผ่านมา และยอดรวมที่จ่ายแล้ว</p>
+                                <div class="bg-blue-100 rounded-xl p-4">
+                                    <div class="flex items-center text-blue-700 text-sm font-medium mb-2">
+                                        <i class="fas fa-chart-bar mr-2"></i>
+                                        <span>ข้อมูลประวัติ:</span>
+                                    </div>
+                                    <ul class="text-blue-600 text-sm space-y-1 ml-4">
+                                        <li>• รายการจ่ายแต่ละสัปดาห์</li>
+                                        <li>• วันที่ชำระเงิน</li>
+                                        <li>• ยอดรวมที่จ่ายทั้งหมด</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Enhanced Tips Section -->
+                    <div class="mt-12 p-8 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 rounded-3xl border-2 border-blue-200">
+                        <div class="text-center mb-8">
+                            <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center text-white text-2xl mx-auto mb-4 shadow-lg">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h5 class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2">
+                                เคล็ดลับและข้อดีของ ClassPay
+                            </h5>
+                            <p class="text-gray-600">สิ่งที่ทำให้ ClassPay เป็นระบบเก็บเงินที่ดีที่สุด</p>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-6 border border-white/50 hover:shadow-lg transition-all card-hover">
+                                <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-4">
+                                    <i class="fas fa-cloud text-green-600 text-xl"></i>
+                                </div>
+                                <h6 class="font-bold text-gray-800 mb-2">บันทึกแบบเรียลไทม์</h6>
+                                <p class="text-gray-600 text-sm">ข้อมูลจะถูกบันทึกทันที ไม่ต้องกังวลเรื่องข้อมูลหาย</p>
+                            </div>
+                            
+                            <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-6 border border-white/50 hover:shadow-lg transition-all card-hover">
+                                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
+                                    <i class="fas fa-mobile-alt text-blue-600 text-xl"></i>
+                                </div>
+                                <h6 class="font-bold text-gray-800 mb-2">ใช้งานได้ทุกอุปกรณ์</h6>
+                                <p class="text-gray-600 text-sm">รองรับทั้งมือถือ แท็บเล็ต และคอมพิวเตอร์</p>
+                            </div>
+                            
+                            <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-6 border border-white/50 hover:shadow-lg transition-all card-hover">
+                                <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-4">
+                                    <i class="fas fa-crown text-purple-600 text-xl"></i>
+                                </div>
+                                <h6 class="font-bold text-gray-800 mb-2">ระบบเหรัญญิก</h6>
+                                <p class="text-gray-600 text-sm">เหรัญญิกมีสิทธิ์พิเศษ ช่วยครูจัดการระบบได้</p>
+                            </div>
+                            
+                            <div class="bg-white/70 backdrop-blur-sm rounded-2xl p-6 border border-white/50 hover:shadow-lg transition-all card-hover">
+                                <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mb-4">
+                                    <i class="fas fa-file-excel text-orange-600 text-xl"></i>
+                                </div>
+                                <h6 class="font-bold text-gray-800 mb-2">นำเข้า Excel</h6>
+                                <p class="text-gray-600 text-sm">เพิ่มนักเรียนหลายคนพร้อมกันจาก Excel</p>
                             </div>
                         </div>
                     </div>
@@ -355,7 +491,7 @@
         </div>
 
         <!-- Login Form -->
-        <div id="loginForm" class="hidden max-w-md mx-auto slide-in">
+        <div id="loginForm" class="hidden max-w-lg mx-auto slide-in">
             <div class="bg-white/70 backdrop-blur-xl rounded-3xl shadow-2xl p-8 border border-white/20">
                 <div class="text-center mb-8">
                     <div class="w-16 h-16 gradient-primary rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-4 shadow-lg">
@@ -364,22 +500,70 @@
                     <h2 class="text-3xl font-bold text-gray-800">เข้าสู่ระบบ</h2>
                     <p class="text-gray-600 mt-2">ยินดีต้อนรับกลับมา!</p>
                 </div>
-                <form onsubmit="handleLogin(event)" class="space-y-6">
-                    <div>
-                        <label class="block text-gray-700 text-sm font-medium mb-3">อีเมล (ครู) / รหัสนักเรียน</label>
-                        <input type="text" id="loginEmail" class="w-full px-4 py-3 bg-white/50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all" placeholder="your@email.com หรือ 65001" required>
-                    </div>
-                    <div>
-                        <label class="block text-gray-700 text-sm font-medium mb-3">รหัสผ่าน</label>
-                        <input type="password" id="loginPassword" class="w-full px-4 py-3 bg-white/50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all" placeholder="••••••••" required>
-                    </div>
-                    <button type="submit" id="loginBtn" class="w-full py-4 gradient-primary text-white rounded-xl hover:shadow-xl transition-all duration-300 btn-glow font-medium text-lg">
-                        เข้าสู่ระบบ
+                
+                <!-- Tab Navigation -->
+                <div class="flex space-x-1 mb-8 bg-gray-100 rounded-xl p-1">
+                    <button onclick="switchLoginTab('teacher')" id="teacherLoginTab" class="flex-1 py-3 px-4 rounded-lg text-sm font-medium transition-all bg-white text-purple-600 shadow-sm">
+                        <i class="fas fa-chalkboard-teacher mr-2"></i>ครู/เหรัญญิก
                     </button>
-                </form>
-                <p class="text-center mt-6 text-gray-600">
-                    ครูยังไม่มีบัญชี? <button onclick="showRegister()" class="text-purple-600 hover:text-purple-700 font-medium">สมัครสมาชิกครู</button>
-                </p>
+                    <button onclick="switchLoginTab('student')" id="studentLoginTab" class="flex-1 py-3 px-4 rounded-lg text-sm font-medium transition-all text-gray-600 hover:text-purple-600">
+                        <i class="fas fa-user-graduate mr-2"></i>นักเรียน
+                    </button>
+                </div>
+
+                <!-- Teacher Login Form -->
+                <div id="teacherLoginForm" class="space-y-6">
+                    <form onsubmit="handleTeacherLogin(event)" class="space-y-6">
+                        <div>
+                            <label class="block text-gray-700 text-sm font-medium mb-3">อีเมล</label>
+                            <input type="email" id="teacherEmail" class="w-full px-4 py-3 bg-white/50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all" placeholder="teacher@school.com" required>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 text-sm font-medium mb-3">รหัสผ่าน</label>
+                            <input type="password" id="teacherPassword" class="w-full px-4 py-3 bg-white/50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all" placeholder="••••••••" required>
+                        </div>
+                        <div class="bg-blue-50 border border-blue-200 rounded-xl p-4">
+                            <p class="text-blue-800 text-sm">
+                                <strong><i class="fas fa-info-circle mr-1"></i> สำหรับครู:</strong> ใช้อีเมลและรหัสผ่านที่สมัครไว้
+                            </p>
+                        </div>
+                        <button type="submit" id="teacherLoginBtn" class="w-full py-4 gradient-primary text-white rounded-xl hover:shadow-xl transition-all duration-300 btn-glow font-medium text-lg">
+                            <i class="fas fa-chalkboard-teacher mr-2"></i> เข้าสู่ระบบครู
+                        </button>
+                    </form>
+                    <p class="text-center mt-6 text-gray-600">
+                        ยังไม่มีบัญชีครู? <button onclick="showRegister()" class="text-purple-600 hover:text-purple-700 font-medium">สมัครสมาชิกครู</button>
+                    </p>
+                </div>
+
+                <!-- Student Login Form -->
+                <div id="studentLoginForm" class="hidden space-y-6">
+                    <form onsubmit="handleStudentLogin(event)" class="space-y-6">
+                        <div>
+                            <label class="block text-gray-700 text-sm font-medium mb-3">รหัสนักเรียน</label>
+                            <input type="text" id="studentId" class="w-full px-4 py-3 bg-white/50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all" placeholder="65001" required>
+                        </div>
+                        <div id="studentPasswordField" class="hidden">
+                            <label class="block text-gray-700 text-sm font-medium mb-3">รหัสผ่าน (ถ้ามี)</label>
+                            <input type="password" id="studentPassword" class="w-full px-4 py-3 bg-white/50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all" placeholder="••••••••">
+                        </div>
+                        <div class="bg-green-50 border border-green-200 rounded-xl p-4">
+                            <p class="text-green-800 text-sm">
+                                <strong><i class="fas fa-info-circle mr-1"></i> สำหรับนักเรียน:</strong> ใส่เฉพาะรหัสนักเรียนเพื่อเข้าสู่ระบบ
+                            </p>
+                            <p class="text-green-600 text-xs mt-2">
+                                • รหัสนักเรียนจะได้รับจากครูผู้สอน<br>
+                                • ไม่ต้องใส่รหัสผ่าน (ระบบใหม่)
+                            </p>
+                        </div>
+                        <button type="submit" id="studentLoginBtn" class="w-full py-4 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white rounded-xl hover:shadow-xl transition-all duration-300 font-medium text-lg">
+                            <i class="fas fa-user-graduate mr-2"></i> เข้าสู่ระบบนักเรียน
+                        </button>
+                    </form>
+                    <p class="text-center mt-6 text-gray-600 text-sm">
+                        <i class="fas fa-question-circle mr-1"></i> ไม่ทราบรหัสนักเรียน? ติดต่อครูผู้สอนของคุณ
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -558,7 +742,7 @@
                 <div class="lg:col-span-1 space-y-6">
                     <!-- Week Management Card -->
                     <div class="bg-white/80 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 overflow-hidden">
-                        <div class="bg-gradient-to-r from-purple-500 to-blue-500 p-6">
+                        <div class="bg-gradient-to-r from-purple-500 to-blue-500 p-4">
                             <h3 class="text-xl font-bold text-white flex items-center">
                                 <i class="fas fa-calendar-alt mr-3"></i>
                                 จัดการสัปดาห์การจ่าย
@@ -598,7 +782,7 @@
 
                     <!-- Student Management Card (Hidden for Treasurer) -->
                     <div id="studentManagementCard" class="bg-white/80 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 overflow-hidden">
-                        <div class="bg-gradient-to-r from-pink-500 to-rose-500 p-6">
+                        <div class="bg-gradient-to-r from-pink-500 to-rose-500 p-4">
                             <h3 class="text-xl font-bold text-white flex items-center">
                                 <i class="fas fa-user-graduate mr-3"></i>
                                 จัดการนักเรียน
@@ -617,7 +801,7 @@
 
                     <!-- Money Management Card -->
                     <div class="bg-white/80 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 overflow-hidden">
-                        <div class="bg-gradient-to-r from-emerald-500 to-teal-500 p-6">
+                        <div class="bg-gradient-to-r from-emerald-500 to-teal-500 p-4">
                             <h3 class="text-xl font-bold text-white flex items-center">
                                 <i class="fas fa-wallet mr-3"></i>
                                 จัดการเงินห้อง
@@ -650,7 +834,7 @@
                 <!-- Right Column - Students List -->
                 <div class="lg:col-span-2">
                     <div class="bg-white/80 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 overflow-hidden">
-                        <div class="bg-gradient-to-r from-indigo-500 to-purple-600 p-6">
+                        <div class="bg-gradient-to-r from-indigo-500 to-purple-600 p-4">
                             <div class="flex items-center justify-between">
                                 <div>
                                     <h3 class="text-2xl font-bold text-white flex items-center">
@@ -815,22 +999,7 @@
                 <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-white/5 rounded-full"></div>
             </div>
 
-            <!-- Student Info Card -->
-            <div class="bg-white/80 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 overflow-hidden mb-6">
-                <div class="bg-gradient-to-r from-indigo-500 to-purple-600 p-4">
-                    <h3 class="text-xl font-bold text-white flex items-center">
-                        <i class="fas fa-id-card mr-2"></i>
-                        ข้อมูลนักเรียน
-                    </h3>
-                </div>
-                <div class="p-4">
-                    <div id="studentInfo" class="grid md:grid-cols-1 gap-4">
-                        <div class="p-4 bg-gray-50 rounded-xl border border-gray-200">
-                            <p class="text-gray-600 text-center">กำลังโหลดข้อมูล...</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
             <!-- Class Money Summary Card -->
             <div class="bg-white/80 backdrop-blur-xl rounded-2xl shadow-xl border border-white/30 overflow-hidden mb-8">
@@ -1201,8 +1370,8 @@
     </div>
 
     <!-- Student Modal -->
-    <div id="studentModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4">
-        <div class="bg-white rounded-3xl shadow-2xl max-w-2xl w-full modal-enter">
+    <div id="studentModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4 overflow-y-auto">
+        <div class="bg-white rounded-3xl shadow-2xl max-w-2xl w-full modal-enter max-h-[90vh] overflow-y-auto my-8">
             <div class="p-8">
                 <div class="flex items-center justify-between mb-6">
                     <h3 class="text-2xl font-semibold text-gray-800">เพิ่มนักเรียน</h3>
@@ -1332,7 +1501,7 @@
                         <button type="button" onclick="closeStudentModal()" class="flex-1 py-3 bg-gray-500 hover:bg-gray-600 text-white rounded-xl transition-all duration-300 font-medium">
                             ยกเลิก
                         </button>
-                        <button type="button" onclick="previewBulkData()" class="flex-1 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl transition-all duration-300 font-medium">
+                        <button type="button" onclick="previewBulkData()" id="previewBulkBtn" class="flex-1 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl transition-all duration-300 font-medium">
                             <i class="fas fa-eye mr-2"></i> ดูตัวอย่าง
                         </button>
                         <button type="button" onclick="importBulkStudents()" id="importBulkBtn" class="flex-1 py-3 gradient-secondary text-white rounded-xl hover:shadow-xl transition-all duration-300 font-medium">
@@ -1344,46 +1513,7 @@
         </div>
     </div>
 
-    <!-- Change Password Modal -->
-    <div id="changePasswordModal" class="hidden fixed inset-0 z-50 modal-backdrop flex items-center justify-center p-4">
-        <div class="bg-white rounded-3xl shadow-2xl max-w-md w-full modal-enter">
-            <div class="p-8">
-                <div class="flex items-center justify-between mb-6">
-                    <h3 class="text-2xl font-semibold text-gray-800">เปลี่ยนรหัสผ่าน</h3>
-                    <button onclick="closeChangePasswordModal()" class="text-gray-400 hover:text-gray-600 text-2xl">
-                        <i class="fas fa-times"></i>
-                    </button>
-                </div>
-                <form onsubmit="changePassword(event)" class="space-y-6">
-                    <div>
-                        <label class="block text-gray-700 text-sm font-medium mb-3">รหัสผ่านปัจจุบัน</label>
-                        <input type="password" id="currentPassword" class="w-full px-4 py-3 bg-white/50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all" placeholder="••••••••" required>
-                    </div>
-                    <div>
-                        <label class="block text-gray-700 text-sm font-medium mb-3">รหัสผ่านใหม่</label>
-                        <input type="password" id="newPassword" class="w-full px-4 py-3 bg-white/50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all" placeholder="••••••••" required>
-                    </div>
-                    <div>
-                        <label class="block text-gray-700 text-sm font-medium mb-3">ยืนยันรหัสผ่านใหม่</label>
-                        <input type="password" id="confirmNewPassword" class="w-full px-4 py-3 bg-white/50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all" placeholder="••••••••" required>
-                    </div>
-                    <div class="bg-blue-50 border border-blue-200 rounded-xl p-4">
-                        <p class="text-blue-800 text-sm">
-                            <strong><i class="fas fa-info-circle mr-1"></i> หมายเหตุ:</strong> รหัสผ่านใหม่ควรมีความปลอดภัย และจำได้ง่าย
-                        </p>
-                    </div>
-                    <div class="flex space-x-4">
-                        <button type="button" onclick="closeChangePasswordModal()" class="flex-1 py-3 bg-gray-500 hover:bg-gray-600 text-white rounded-xl transition-all duration-300 font-medium">
-                            ยกเลิก
-                        </button>
-                        <button type="submit" id="changePasswordBtn" class="flex-1 py-3 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white rounded-xl transition-all duration-300 font-medium">
-                            <i class="fas fa-key mr-2"></i> เปลี่ยนรหัสผ่าน
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+
 
     <!-- Loading Overlay -->
     <div id="loadingOverlay" class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center">
@@ -1394,18 +1524,22 @@
     </div>
 
     <!-- Notification -->
-    <div id="notification" class="hidden fixed top-4 right-4 z-50 max-w-sm">
-        <div class="bg-white rounded-xl shadow-2xl border border-gray-200 p-4">
-            <div class="flex items-start space-x-3">
-                <div id="notificationIcon" class="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center">
-                    <i class="fas fa-check text-sm"></i>
+    <div id="notification" class="hidden fixed top-6 right-6 z-50 max-w-sm">
+        <div id="notificationCard" class="bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl p-5 transform transition-all duration-300 ease-out">
+            <div class="flex items-start space-x-4">
+                <div id="notificationIcon" class="flex-shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg">
+                    <i class="fas fa-check text-lg"></i>
                 </div>
-                <div class="flex-1">
-                    <p id="notificationMessage" class="text-sm font-medium text-gray-800"></p>
+                <div class="flex-1 min-w-0">
+                    <h4 id="notificationTitle" class="text-base font-bold text-gray-900 mb-1"></h4>
+                    <p id="notificationMessage" class="text-sm text-gray-600 leading-relaxed"></p>
                 </div>
-                <button onclick="hideNotification()" class="flex-shrink-0 text-gray-400 hover:text-gray-600">
-                    <i class="fas fa-times text-sm"></i>
+                <button onclick="hideNotification()" class="flex-shrink-0 w-8 h-8 rounded-xl bg-gray-100/80 hover:bg-gray-200/80 text-gray-500 hover:text-gray-700 transition-all duration-200 flex items-center justify-center">
+                    <i class="fas fa-times text-xs"></i>
                 </button>
+            </div>
+            <div id="notificationProgress" class="mt-4 h-1.5 bg-gray-100/60 rounded-full overflow-hidden">
+                <div id="notificationProgressBar" class="h-full transition-all duration-75 ease-linear rounded-full"></div>
             </div>
         </div>
     </div>
@@ -1552,7 +1686,33 @@
             }
 
             try {
-                const studentsRef = window.ref(db, 'students');
+                // For student/treasurer, find their teacher and load students from that teacher
+                if (currentUser && (currentUser.role === 'student' || currentUser.role === 'treasurer')) {
+                    const studentData = await getStudentData(currentUser.studentId);
+                    if (studentData && studentData.teacherId) {
+                        const studentsRef = window.ref(db, `teachers/${studentData.teacherId}/students`);
+                        const snapshot = await window.get(studentsRef);
+                        
+                        if (snapshot.exists()) {
+                            const studentsData = snapshot.val();
+                            students = Object.keys(studentsData).map(key => ({
+                                id: key,
+                                ...studentsData[key]
+                            })).sort((a, b) => parseInt(a.number) - parseInt(b.number));
+                        } else {
+                            students = [];
+                        }
+                        return;
+                    }
+                }
+
+                // For teacher, load their own students
+                if (!currentUser || !currentUser.uid) {
+                    throw new Error('ไม่พบข้อมูลผู้ใช้งาน');
+                }
+
+                // Load students for current teacher only
+                const studentsRef = window.ref(db, `teachers/${currentUser.uid}/students`);
                 const snapshot = await window.get(studentsRef);
                 
                 if (snapshot.exists()) {
@@ -1575,10 +1735,16 @@
                 throw new Error('ไม่สามารถเชื่อมต่อ Firebase ได้');
             }
 
+            if (!currentUser || !currentUser.uid) {
+                throw new Error('ไม่พบข้อมูลผู้ใช้งาน');
+            }
+
             try {
-                const studentRef = window.ref(db, `students/${studentData.studentId}`);
+                // Add student under current teacher's data
+                const studentRef = window.ref(db, `teachers/${currentUser.uid}/students/${studentData.studentId}`);
                 await window.set(studentRef, {
                     ...studentData,
+                    teacherId: currentUser.uid,
                     createdAt: window.serverTimestamp()
                 });
             } catch (error) {
@@ -1589,6 +1755,10 @@
         async function updateStudentPayment(studentId, paid, weekId = null, paidAmount = null) {
             if (!isFirebaseConnected) {
                 throw new Error('ไม่สามารถเชื่อมต่อ Firebase ได้');
+            }
+
+            if (!currentUser || !currentUser.uid) {
+                throw new Error('ไม่พบข้อมูลผู้ใช้งาน');
             }
 
             try {
@@ -1607,12 +1777,13 @@
                     updateData.paidAmount = null;
                 }
 
-                const studentRef = window.ref(db, `students/${studentId}`);
+                // Update student under current teacher's data
+                const studentRef = window.ref(db, `teachers/${currentUser.uid}/students/${studentId}`);
                 await window.update(studentRef, updateData);
 
-                // Also record payment history
+                // Also record payment history under current teacher
                 if (paid && currentWeek) {
-                    const paymentsRef = window.ref(db, 'payments');
+                    const paymentsRef = window.ref(db, `teachers/${currentUser.uid}/payments`);
                     const newPaymentRef = window.push(paymentsRef);
                     await window.set(newPaymentRef, {
                         studentId: studentId,
@@ -1620,6 +1791,7 @@
                         week: currentWeek.week,
                         amount: paidAmount || currentWeek.amount,
                         standardAmount: currentWeek.amount,
+                        teacherId: currentUser.uid,
                         paidAt: window.serverTimestamp()
                     });
                 }
@@ -1633,11 +1805,17 @@
                 throw new Error('ไม่สามารถเชื่อมต่อ Firebase ได้');
             }
 
+            if (!currentUser || !currentUser.uid) {
+                throw new Error('ไม่พบข้อมูลผู้ใช้งาน');
+            }
+
             try {
-                const weeksRef = window.ref(db, 'weeks');
+                // Add week under current teacher's data
+                const weeksRef = window.ref(db, `teachers/${currentUser.uid}/weeks`);
                 const newWeekRef = window.push(weeksRef);
                 await window.set(newWeekRef, {
                     ...weekData,
+                    teacherId: currentUser.uid,
                     createdAt: window.serverTimestamp()
                 });
                 
@@ -1659,7 +1837,26 @@
             }
 
             try {
-                const weeksRef = window.ref(db, 'weeks');
+                let teacherId = null;
+
+                // For student/treasurer, find their teacher ID
+                if (currentUser && (currentUser.role === 'student' || currentUser.role === 'treasurer')) {
+                    const studentData = await getStudentData(currentUser.studentId);
+                    if (studentData && studentData.teacherId) {
+                        teacherId = studentData.teacherId;
+                    }
+                } else if (currentUser && currentUser.uid) {
+                    // For teacher, use their own ID
+                    teacherId = currentUser.uid;
+                }
+
+                if (!teacherId) {
+                    allWeeks = [];
+                    return [];
+                }
+
+                // Load weeks for the determined teacher
+                const weeksRef = window.ref(db, `teachers/${teacherId}/weeks`);
                 const snapshot = await window.get(weeksRef);
                 
                 if (snapshot.exists()) {
@@ -1686,7 +1883,7 @@
         async function loadCurrentWeek() {
             await loadAllWeeks();
             
-            if (allWeeks.length > 0) {
+            if (allWeeks && allWeeks.length > 0) {
                 // Get the most recent week (last created)
                 const sortedByCreated = [...allWeeks].sort((a, b) => {
                     const aTime = a.createdAt || 0;
@@ -1696,6 +1893,9 @@
                 currentWeek = sortedByCreated[0];
                 return currentWeek;
             }
+            
+            // No weeks exist
+            currentWeek = null;
             return null;
         }
 
@@ -1720,7 +1920,34 @@
             }
 
             try {
-                const studentRef = window.ref(db, `students/${studentId}`);
+                // For student login, search across all teachers
+                if (!currentUser || currentUser.role === 'student' || currentUser.role === 'treasurer') {
+                    const teachersRef = window.ref(db, 'teachers');
+                    const teachersSnapshot = await window.get(teachersRef);
+                    
+                    if (teachersSnapshot.exists()) {
+                        const teachersData = teachersSnapshot.val();
+                        
+                        // Search for student across all teachers
+                        for (const teacherId of Object.keys(teachersData)) {
+                            if (teachersData[teacherId].students && teachersData[teacherId].students[studentId]) {
+                                const studentData = teachersData[teacherId].students[studentId];
+                                // Store teacher ID for later use
+                                studentData.teacherId = teacherId;
+                                return studentData;
+                            }
+                        }
+                    }
+                    return null;
+                }
+
+                // For teacher accessing student data (existing logic)
+                if (!currentUser.uid) {
+                    throw new Error('ไม่พบข้อมูลผู้ใช้งาน');
+                }
+
+                // Get student data from current teacher's data
+                const studentRef = window.ref(db, `teachers/${currentUser.uid}/students/${studentId}`);
                 const snapshot = await window.get(studentRef);
                 return snapshot.exists() ? snapshot.val() : null;
             } catch (error) {
@@ -1735,7 +1962,25 @@
             }
 
             try {
-                const paymentsRef = window.ref(db, 'payments');
+                let teacherId = null;
+
+                // For student/treasurer, find their teacher ID
+                if (currentUser && (currentUser.role === 'student' || currentUser.role === 'treasurer')) {
+                    const studentData = await getStudentData(studentId);
+                    if (studentData && studentData.teacherId) {
+                        teacherId = studentData.teacherId;
+                    }
+                } else if (currentUser && currentUser.uid) {
+                    // For teacher, use their own ID
+                    teacherId = currentUser.uid;
+                }
+
+                if (!teacherId) {
+                    return [];
+                }
+
+                // Get payment history from the determined teacher's data
+                const paymentsRef = window.ref(db, `teachers/${teacherId}/payments`);
                 const snapshot = await window.get(paymentsRef);
                 
                 if (snapshot.exists()) {
@@ -1766,11 +2011,17 @@
                 throw new Error('ไม่สามารถเชื่อมต่อ Firebase ได้');
             }
 
+            if (!currentUser || !currentUser.uid) {
+                throw new Error('ไม่พบข้อมูลผู้ใช้งาน');
+            }
+
             try {
-                const expensesRef = window.ref(db, 'expenses');
+                // Add expense under current teacher's data
+                const expensesRef = window.ref(db, `teachers/${currentUser.uid}/expenses`);
                 const newExpenseRef = window.push(expensesRef);
                 await window.set(newExpenseRef, {
                     ...expenseData,
+                    teacherId: currentUser.uid,
                     createdAt: window.serverTimestamp()
                 });
                 return newExpenseRef;
@@ -1784,8 +2035,13 @@
                 throw new Error('ไม่สามารถเชื่อมต่อ Firebase ได้');
             }
 
+            if (!currentUser || !currentUser.uid) {
+                throw new Error('ไม่พบข้อมูลผู้ใช้งาน');
+            }
+
             try {
-                const expenseRef = window.ref(db, `expenses/${expenseId}`);
+                // Update expense under current teacher's data
+                const expenseRef = window.ref(db, `teachers/${currentUser.uid}/expenses/${expenseId}`);
                 await window.update(expenseRef, {
                     ...expenseData,
                     lastUpdated: window.serverTimestamp()
@@ -1800,8 +2056,13 @@
                 throw new Error('ไม่สามารถเชื่อมต่อ Firebase ได้');
             }
 
+            if (!currentUser || !currentUser.uid) {
+                throw new Error('ไม่พบข้อมูลผู้ใช้งาน');
+            }
+
             try {
-                const expenseRef = window.ref(db, `expenses/${expenseId}`);
+                // Delete expense from current teacher's data
+                const expenseRef = window.ref(db, `teachers/${currentUser.uid}/expenses/${expenseId}`);
                 await window.set(expenseRef, null);
             } catch (error) {
                 throw error;
@@ -1814,7 +2075,26 @@
             }
 
             try {
-                const expensesRef = window.ref(db, 'expenses');
+                let teacherId = null;
+
+                // For student/treasurer, find their teacher ID
+                if (currentUser && (currentUser.role === 'student' || currentUser.role === 'treasurer')) {
+                    const studentData = await getStudentData(currentUser.studentId);
+                    if (studentData && studentData.teacherId) {
+                        teacherId = studentData.teacherId;
+                    }
+                } else if (currentUser && currentUser.uid) {
+                    // For teacher, use their own ID
+                    teacherId = currentUser.uid;
+                }
+
+                if (!teacherId) {
+                    allExpenses = [];
+                    return [];
+                }
+
+                // Load expenses for the determined teacher
+                const expensesRef = window.ref(db, `teachers/${teacherId}/expenses`);
                 const snapshot = await window.get(expensesRef);
                 
                 if (snapshot.exists()) {
@@ -1842,8 +2122,29 @@
 
         async function calculateFinancials() {
             try {
-                // Calculate total income from payments
-                const paymentsRef = window.ref(db, 'payments');
+                let teacherId = null;
+
+                // For student/treasurer, find their teacher ID
+                if (currentUser && (currentUser.role === 'student' || currentUser.role === 'treasurer')) {
+                    const studentData = await getStudentData(currentUser.studentId);
+                    if (studentData && studentData.teacherId) {
+                        teacherId = studentData.teacherId;
+                    }
+                } else if (currentUser && currentUser.uid) {
+                    // For teacher, use their own ID
+                    teacherId = currentUser.uid;
+                }
+
+                if (!teacherId) {
+                    return {
+                        totalIncome: 0,
+                        totalExpense: 0,
+                        remainingBalance: 0
+                    };
+                }
+
+                // Calculate total income from payments for the determined teacher
+                const paymentsRef = window.ref(db, `teachers/${teacherId}/payments`);
                 const paymentsSnapshot = await window.get(paymentsRef);
                 
                 totalIncome = 0;
@@ -1854,7 +2155,7 @@
                     });
                 }
 
-                // Calculate total expenses
+                // Calculate total expenses for the determined teacher
                 await loadAllExpenses();
                 totalExpense = allExpenses.reduce((sum, expense) => sum + (expense.amount || 0), 0);
                 
@@ -1901,71 +2202,63 @@
             document.getElementById('expenseHistoryDashboard').classList.add('hidden');
         }
 
+        // Login Tab Management
+        function switchLoginTab(tabName) {
+            const teacherTab = document.getElementById('teacherLoginTab');
+            const studentTab = document.getElementById('studentLoginTab');
+            const teacherForm = document.getElementById('teacherLoginForm');
+            const studentForm = document.getElementById('studentLoginForm');
+            
+            if (tabName === 'teacher') {
+                teacherTab.className = 'flex-1 py-3 px-4 rounded-lg text-sm font-medium transition-all bg-white text-purple-600 shadow-sm';
+                studentTab.className = 'flex-1 py-3 px-4 rounded-lg text-sm font-medium transition-all text-gray-600 hover:text-purple-600';
+                teacherForm.classList.remove('hidden');
+                studentForm.classList.add('hidden');
+            } else {
+                studentTab.className = 'flex-1 py-3 px-4 rounded-lg text-sm font-medium transition-all bg-white text-green-600 shadow-sm';
+                teacherTab.className = 'flex-1 py-3 px-4 rounded-lg text-sm font-medium transition-all text-gray-600 hover:text-purple-600';
+                studentForm.classList.remove('hidden');
+                teacherForm.classList.add('hidden');
+            }
+        }
+
         // Authentication Functions
-        async function handleLogin(event) {
+        async function handleTeacherLogin(event) {
             event.preventDefault();
-            const emailOrStudentId = document.getElementById('loginEmail').value;
-            const password = document.getElementById('loginPassword').value;
-            const loginBtn = document.getElementById('loginBtn');
+            const email = document.getElementById('teacherEmail').value;
+            const password = document.getElementById('teacherPassword').value;
+            const loginBtn = document.getElementById('teacherLoginBtn');
             
             try {
-                loginBtn.textContent = 'กำลังเข้าสู่ระบบ...';
+                loginBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> กำลังเข้าสู่ระบบ...';
                 loginBtn.disabled = true;
                 showLoading();
                 
-                // Check if input is student ID (not email format)
-                if (!emailOrStudentId.includes('@')) {
-                    // Student login
-                    const result = await signInStudent(emailOrStudentId, password);
-                    const studentData = await getStudentData(emailOrStudentId);
-                    
-                    if (studentData) {
-                        const userRole = studentData.role === 'treasurer' ? 'treasurer' : 'student';
-                        currentUser = {
-                            uid: result.user.uid,
-                            studentId: emailOrStudentId,
-                            name: studentData.name,
-                            role: userRole
-                        };
-                        updateNavigation();
-                        
-                        // เหรัญญิกเข้าสู่แดชบอร์ดผู้ดูแล นักเรียนทั่วไปเข้าสู่แดชบอร์ดนักเรียน
-                        if (userRole === 'treasurer') {
-                            showAdminDashboard();
-                        } else {
-                            showStudentDashboard();
-                        }
-                        
-                        showNotification('เข้าสู่ระบบสำเร็จ! 🎉', 'success');
-                        return;
-                    }
-                } else {
-                    // Teacher login
-                    const result = await signInUser(emailOrStudentId, password);
-                    const userData = await getUserData(result.user.uid);
-                    
-                    if (userData) {
-                        currentUser = {
-                            uid: result.user.uid,
-                            email: emailOrStudentId,
-                            name: userData.name,
-                            role: userData.role
-                        };
-                        updateNavigation();
-                        showAdminDashboard();
-                        showNotification('เข้าสู่ระบบสำเร็จ! 🎉', 'success');
-                        return;
-                    }
+                // Teacher login
+                const result = await signInUser(email, password);
+                const userData = await getUserData(result.user.uid);
+                
+                if (userData) {
+                    currentUser = {
+                        uid: result.user.uid,
+                        email: email,
+                        name: userData.name,
+                        role: userData.role
+                    };
+                    updateNavigation();
+                    showAdminDashboard();
+                    showNotification('เข้าสู่ระบบครูสำเร็จ! 🎉', 'success');
+                    return;
                 }
                 
                 throw new Error('ไม่พบข้อมูลผู้ใช้งาน');
                 
             } catch (error) {
-                console.error('Login error:', error);
+                console.error('Teacher login error:', error);
                 let errorMessage = 'เกิดข้อผิดพลาดในการเข้าสู่ระบบ';
                 
                 if (error.code === 'auth/user-not-found') {
-                    errorMessage = 'ไม่พบผู้ใช้งานนี้ในระบบ';
+                    errorMessage = 'ไม่พบอีเมลนี้ในระบบ';
                 } else if (error.code === 'auth/wrong-password') {
                     errorMessage = 'รหัสผ่านไม่ถูกต้อง';
                 } else if (error.code === 'auth/invalid-email') {
@@ -1976,7 +2269,60 @@
                 
                 showNotification(errorMessage, 'error');
             } finally {
-                loginBtn.textContent = 'เข้าสู่ระบบ';
+                loginBtn.innerHTML = '<i class="fas fa-chalkboard-teacher mr-2"></i> เข้าสู่ระบบครู';
+                loginBtn.disabled = false;
+                hideLoading();
+            }
+        }
+
+        async function handleStudentLogin(event) {
+            event.preventDefault();
+            const studentId = document.getElementById('studentId').value;
+            const password = document.getElementById('studentPassword').value || '123456'; // Default password
+            const loginBtn = document.getElementById('studentLoginBtn');
+            
+            try {
+                loginBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> กำลังเข้าสู่ระบบ...';
+                loginBtn.disabled = true;
+                showLoading();
+                
+                // Student login - no password required for new system
+                const studentData = await getStudentData(studentId);
+                
+                if (studentData) {
+                    const userRole = studentData.role === 'treasurer' ? 'treasurer' : 'student';
+                    currentUser = {
+                        uid: studentId,
+                        studentId: studentId,
+                        name: studentData.name,
+                        role: userRole
+                    };
+                    updateNavigation();
+                    
+                    // เหรัญญิกเข้าสู่แดชบอร์ดผู้ดูแล นักเรียนทั่วไปเข้าสู่แดชบอร์ดนักเรียน
+                    if (userRole === 'treasurer') {
+                        showAdminDashboard();
+                        showNotification('เข้าสู่ระบบเหรัญญิกสำเร็จ! 🎉', 'success');
+                    } else {
+                        showStudentDashboard();
+                        showNotification('เข้าสู่ระบบนักเรียนสำเร็จ! 🎉', 'success');
+                    }
+                    return;
+                }
+                
+                throw new Error('ไม่พบรหัสนักเรียนนี้ในระบบ กรุณาติดต่อครูผู้สอน');
+                
+            } catch (error) {
+                console.error('Student login error:', error);
+                let errorMessage = 'เกิดข้อผิดพลาดในการเข้าสู่ระบบ';
+                
+                if (error.message) {
+                    errorMessage = error.message;
+                }
+                
+                showNotification(errorMessage, 'error');
+            } finally {
+                loginBtn.innerHTML = '<i class="fas fa-user-graduate mr-2"></i> เข้าสู่ระบบนักเรียน';
                 loginBtn.disabled = false;
                 hideLoading();
             }
@@ -2120,11 +2466,26 @@
 
             try {
                 showLoading();
+                
+                // Reset variables first
+                selectedWeekId = null;
+                currentWeek = null;
+                
+                // Load data
                 await loadCurrentWeek();
                 await loadStudents();
+                
+                // Update UI
                 updateWeekSelector();
                 updateAdminStats();
-                updateStudentsTable();
+                
+                // Show appropriate content based on whether weeks exist
+                if (!allWeeks || allWeeks.length === 0) {
+                    showNoWeekSelected();
+                } else {
+                    updateStudentsTable();
+                }
+                
             } catch (error) {
                 console.error('Error loading admin dashboard:', error);
                 showNotification('เกิดข้อผิดพลาดในการโหลดข้อมูล: ' + error.message, 'error');
@@ -2193,18 +2554,32 @@
             const selector = document.getElementById('weekSelector');
             selector.innerHTML = '<option value="">-- เลือกสัปดาห์การจ่าย --</option>';
             
-            allWeeks.forEach(week => {
-                const option = document.createElement('option');
-                option.value = week.id;
-                option.textContent = `สัปดาห์ที่ ${week.week} - ${week.amount} บาท`;
-                selector.appendChild(option);
-            });
-            
-            // Auto-select current week if exists
-            if (currentWeek) {
-                selector.value = currentWeek.id;
-                selectedWeekId = currentWeek.id;
-                updateSelectedWeekInfo();
+            // Only add weeks if they actually exist
+            if (allWeeks && allWeeks.length > 0) {
+                allWeeks.forEach(week => {
+                    const option = document.createElement('option');
+                    option.value = week.id;
+                    option.textContent = `สัปดาห์ที่ ${week.week} - ${week.amount} บาท`;
+                    selector.appendChild(option);
+                });
+                
+                // Auto-select current week if exists
+                if (currentWeek) {
+                    selector.value = currentWeek.id;
+                    selectedWeekId = currentWeek.id;
+                    updateSelectedWeekInfo();
+                } else {
+                    // Reset selection if no current week
+                    selectedWeekId = null;
+                    hideSelectedWeekInfo();
+                    showNoWeekSelected();
+                }
+            } else {
+                // No weeks exist - reset everything
+                selectedWeekId = null;
+                currentWeek = null;
+                hideSelectedWeekInfo();
+                showNoWeekSelected();
             }
         }
 
@@ -2224,7 +2599,10 @@
         }
 
         function updateSelectedWeekInfo() {
-            if (!currentWeek) return;
+            if (!currentWeek || !selectedWeekId) {
+                hideSelectedWeekInfo();
+                return;
+            }
             
             document.getElementById('selectedWeekText').textContent = `สัปดาห์ที่ ${currentWeek.week}`;
             document.getElementById('selectedWeekAmount').textContent = `จำนวน ${currentWeek.amount} บาท`;
@@ -2441,46 +2819,14 @@
             if (!currentUser || currentUser.role !== 'student') return;
             
             const container = document.getElementById('studentPaymentStatus');
-            const infoContainer = document.getElementById('studentInfo');
             
             try {
                 const student = await getStudentData(currentUser.studentId);
                 
                 if (!student) {
                     container.innerHTML = '<p class="text-red-600">ไม่พบข้อมูลนักเรียน</p>';
-                    infoContainer.innerHTML = '<p class="text-red-600">ไม่พบข้อมูลนักเรียน</p>';
                     return;
                 }
-
-                // Update student info section
-                const isTreasurer = student.role === 'treasurer';
-                infoContainer.innerHTML = `
-                    <div class="bg-gradient-to-br from-purple-50 to-blue-50 border-2 border-purple-200 rounded-xl p-4">
-                        <div class="flex items-center space-x-3">
-                            <div class="w-12 h-12 ${isTreasurer ? 'bg-yellow-100' : 'bg-purple-100'} rounded-xl flex items-center justify-center">
-                                ${isTreasurer ? 
-                                    '<i class="fas fa-crown text-yellow-600 text-lg"></i>' : 
-                                    `<span class="font-bold text-purple-700 text-sm">${student.number}</span>`
-                                }
-                            </div>
-                            <div class="flex-1">
-                                <div class="flex items-center space-x-2">
-                                    <h4 class="text-lg font-bold text-gray-800">${student.name}</h4>
-                                    ${isTreasurer ? '<span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs font-medium"><i class="fas fa-crown mr-1"></i>เหรัญญิก</span>' : ''}
-                                </div>
-                                <p class="text-sm text-gray-600">รหัสนักเรียน: ${student.studentId}</p>
-                            </div>
-                        </div>
-                        ${isTreasurer ? `
-                            <div class="bg-yellow-100 border border-yellow-200 rounded-lg p-3 mt-3">
-                                <p class="text-yellow-800 text-xs">
-                                    <i class="fas fa-crown mr-1"></i>
-                                    <strong>สิทธิพิเศษ:</strong> คุณมีสิทธิ์ใช้งานระบบเหมือนครู ยกเว้นการจัดการข้อมูลนักเรียน
-                                </p>
-                            </div>
-                        ` : ''}
-                    </div>
-                `;
 
                 const weekInfo = currentWeek ? `สัปดาห์ที่ ${currentWeek.week} - จำนวน ${currentWeek.amount} บาท` : 'ยังไม่มีการกำหนดสัปดาห์การจ่าย';
                 const isPaidForCurrentWeek = currentWeek && student.weekId === currentWeek.id && student.paid;
@@ -2592,7 +2938,6 @@
             } catch (error) {
                 console.error('Error updating student payment status:', error);
                 container.innerHTML = '<p class="text-red-600">เกิดข้อผิดพลาดในการโหลดข้อมูล: ' + error.message + '</p>';
-                infoContainer.innerHTML = '<p class="text-red-600">เกิดข้อผิดพลาดในการโหลดข้อมูล: ' + error.message + '</p>';
             }
         }
 
@@ -2948,19 +3293,19 @@
                 confirmBtn.disabled = true;
                 showLoading();
                 
-                // Delete week record
-                const weekRef = window.ref(db, `weeks/${weekToDelete.id}`);
+                // Delete week record from current teacher's data
+                const weekRef = window.ref(db, `teachers/${currentUser.uid}/weeks/${weekToDelete.id}`);
                 await window.set(weekRef, null);
                 
-                // Delete payment history for this week
-                const paymentsRef = window.ref(db, 'payments');
+                // Delete payment history for this week from current teacher's data
+                const paymentsRef = window.ref(db, `teachers/${currentUser.uid}/payments`);
                 const paymentsSnapshot = await window.get(paymentsRef);
                 if (paymentsSnapshot.exists()) {
                     const paymentsData = paymentsSnapshot.val();
                     const deletions = {};
                     Object.keys(paymentsData).forEach(paymentId => {
                         if (paymentsData[paymentId].weekId === weekToDelete.id) {
-                            deletions[`payments/${paymentId}`] = null;
+                            deletions[`teachers/${currentUser.uid}/payments/${paymentId}`] = null;
                         }
                     });
                     if (Object.keys(deletions).length > 0) {
@@ -2968,16 +3313,16 @@
                     }
                 }
                 
-                // Reset all students' payment status for this week
-                const studentsRef = window.ref(db, 'students');
+                // Reset all students' payment status for this week in current teacher's data
+                const studentsRef = window.ref(db, `teachers/${currentUser.uid}/students`);
                 const studentsSnapshot = await window.get(studentsRef);
                 if (studentsSnapshot.exists()) {
                     const studentsData = studentsSnapshot.val();
                     const updates = {};
                     Object.keys(studentsData).forEach(studentId => {
                         if (studentsData[studentId].weekId === weekToDelete.id) {
-                            updates[`students/${studentId}/paid`] = false;
-                            updates[`students/${studentId}/weekId`] = null;
+                            updates[`teachers/${currentUser.uid}/students/${studentId}/paid`] = false;
+                            updates[`teachers/${currentUser.uid}/students/${studentId}/weekId`] = null;
                         }
                     });
                     if (Object.keys(updates).length > 0) {
@@ -3038,8 +3383,8 @@
                 let newWeekId = null;
                 
                 if (editingWeekId) {
-                    // Update existing week
-                    const weekRef = window.ref(db, `weeks/${editingWeekId}`);
+                    // Update existing week in current teacher's data
+                    const weekRef = window.ref(db, `teachers/${currentUser.uid}/weeks/${editingWeekId}`);
                     await window.update(weekRef, {
                         ...weekData,
                         lastUpdated: window.serverTimestamp()
@@ -3198,23 +3543,23 @@
 
                 // If student ID changed, we need to delete old record and create new one
                 if (newStudentId !== student.studentId) {
-                    // Delete old record
-                    const oldStudentRef = window.ref(db, `students/${student.studentId}`);
+                    // Delete old record from current teacher's data
+                    const oldStudentRef = window.ref(db, `teachers/${currentUser.uid}/students/${student.studentId}`);
                     await window.set(oldStudentRef, null);
                     
-                    // Create new record
-                    const newStudentRef = window.ref(db, `students/${newStudentId}`);
+                    // Create new record in current teacher's data
+                    const newStudentRef = window.ref(db, `teachers/${currentUser.uid}/students/${newStudentId}`);
                     await window.set(newStudentRef, updatedData);
                     
-                    // Update payment history if exists
-                    const paymentsRef = window.ref(db, 'payments');
+                    // Update payment history if exists in current teacher's data
+                    const paymentsRef = window.ref(db, `teachers/${currentUser.uid}/payments`);
                     const paymentsSnapshot = await window.get(paymentsRef);
                     if (paymentsSnapshot.exists()) {
                         const paymentsData = paymentsSnapshot.val();
                         const updates = {};
                         Object.keys(paymentsData).forEach(paymentId => {
                             if (paymentsData[paymentId].studentId === student.studentId) {
-                                updates[`payments/${paymentId}/studentId`] = newStudentId;
+                                updates[`teachers/${currentUser.uid}/payments/${paymentId}/studentId`] = newStudentId;
                             }
                         });
                         if (Object.keys(updates).length > 0) {
@@ -3222,8 +3567,8 @@
                         }
                     }
                 } else {
-                    // Just update existing record
-                    const studentRef = window.ref(db, `students/${student.studentId}`);
+                    // Just update existing record in current teacher's data
+                    const studentRef = window.ref(db, `teachers/${currentUser.uid}/students/${student.studentId}`);
                     await window.update(studentRef, updatedData);
                 }
                 
@@ -3276,19 +3621,19 @@
                 confirmBtn.disabled = true;
                 showLoading();
                 
-                // Delete student record
-                const studentRef = window.ref(db, `students/${studentToDelete.studentId}`);
+                // Delete student record from current teacher's data
+                const studentRef = window.ref(db, `teachers/${currentUser.uid}/students/${studentToDelete.studentId}`);
                 await window.set(studentRef, null);
                 
-                // Delete payment history
-                const paymentsRef = window.ref(db, 'payments');
+                // Delete payment history from current teacher's data
+                const paymentsRef = window.ref(db, `teachers/${currentUser.uid}/payments`);
                 const paymentsSnapshot = await window.get(paymentsRef);
                 if (paymentsSnapshot.exists()) {
                     const paymentsData = paymentsSnapshot.val();
                     const deletions = {};
                     Object.keys(paymentsData).forEach(paymentId => {
                         if (paymentsData[paymentId].studentId === studentToDelete.studentId) {
-                            deletions[`payments/${paymentId}`] = null;
+                            deletions[`teachers/${currentUser.uid}/payments/${paymentId}`] = null;
                         }
                     });
                     if (Object.keys(deletions).length > 0) {
@@ -3375,6 +3720,7 @@
             const data = document.getElementById('bulkStudentData').value.trim();
             const previewSection = document.getElementById('previewSection');
             const previewData = document.getElementById('previewData');
+            const previewBtn = document.getElementById('previewBulkBtn');
             
             if (!data) {
                 showNotification('กรุณาใส่ข้อมูลนักเรียนก่อน', 'warning');
@@ -3382,10 +3728,17 @@
             }
             
             try {
+                // Show loading state
+                const originalHTML = previewBtn.innerHTML;
+                previewBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> กำลังประมวลผล...';
+                previewBtn.disabled = true;
+                
                 const parsedData = parseBulkData(data);
                 
                 if (parsedData.length === 0) {
-                    showNotification('ไม่พบข้อมูลที่ถูกต้อง', 'error');
+                    showNotification('ไม่พบข้อมูลที่ถูกต้อง กรุณาตรวจสอบรูปแบบข้อมูล', 'error');
+                    previewBtn.innerHTML = originalHTML;
+                    previewBtn.disabled = false;
                     return;
                 }
                 
@@ -3415,11 +3768,27 @@
                 previewSection.classList.remove('hidden');
                 
                 const validCount = parsedData.filter(s => s.number && s.studentId && s.prefix && s.firstName && s.lastName).length;
-                showNotification(`พบข้อมูล ${parsedData.length} รายการ (ถูกต้อง ${validCount} รายการ)`, 'success');
+                const invalidCount = parsedData.length - validCount;
+                
+                let message = `พบข้อมูล ${parsedData.length} รายการ (ถูกต้อง ${validCount} รายการ`;
+                if (invalidCount > 0) {
+                    message += `, ไม่ถูกต้อง ${invalidCount} รายการ`;
+                }
+                message += ')';
+                
+                showNotification(message, validCount > 0 ? 'success' : 'warning');
+                
+                // Restore button
+                previewBtn.innerHTML = originalHTML;
+                previewBtn.disabled = false;
                 
             } catch (error) {
                 console.error('Error parsing bulk data:', error);
                 showNotification('รูปแบบข้อมูลไม่ถูกต้อง กรุณาตรวจสอบอีกครั้ง', 'error');
+                
+                // Restore button on error
+                previewBtn.innerHTML = '<i class="fas fa-eye mr-2"></i> ดูตัวอย่าง';
+                previewBtn.disabled = false;
             }
         }
 
@@ -3428,14 +3797,41 @@
             const students = [];
             
             lines.forEach((line, index) => {
-                const parts = line.split('\t');
+                // Try different separators: tab, multiple spaces, single space
+                let parts = [];
+                
+                // First try tab separator
+                if (line.includes('\t')) {
+                    parts = line.split('\t');
+                } else {
+                    // Try multiple spaces (2 or more)
+                    parts = line.split(/\s{2,}/);
+                    
+                    // If still not enough parts, try single space
+                    if (parts.length < 5) {
+                        parts = line.split(/\s+/);
+                    }
+                }
+                
+                // Clean up parts and ensure we have at least 5 parts
+                parts = parts.map(part => part?.trim()).filter(part => part);
+                
                 if (parts.length >= 5) {
                     students.push({
-                        number: parts[0]?.trim(),
-                        studentId: parts[1]?.trim(),
-                        prefix: parts[2]?.trim(),
-                        firstName: parts[3]?.trim(),
-                        lastName: parts[4]?.trim()
+                        number: parts[0] || '',
+                        studentId: parts[1] || '',
+                        prefix: parts[2] || '',
+                        firstName: parts[3] || '',
+                        lastName: parts[4] || ''
+                    });
+                } else if (parts.length > 0) {
+                    // Add incomplete data for debugging
+                    students.push({
+                        number: parts[0] || '',
+                        studentId: parts[1] || '',
+                        prefix: parts[2] || '',
+                        firstName: parts[3] || '',
+                        lastName: parts[4] || ''
                     });
                 }
             });
@@ -3886,24 +4282,52 @@
 
         function showNotification(message, type = 'success') {
             const notification = document.getElementById('notification');
+            const notificationCard = document.getElementById('notificationCard');
             const icon = document.getElementById('notificationIcon');
+            const titleEl = document.getElementById('notificationTitle');
             const messageEl = document.getElementById('notificationMessage');
+            const progressBar = document.getElementById('notificationProgressBar');
             
-            messageEl.textContent = message;
+            // Clean message (remove emojis and extra characters)
+            const cleanMessage = message.replace(/[🎉👋✅⚠️❌]/g, '').trim();
             
-            // Set icon and color based on type
+            // Set title, icon, and colors based on type
             if (type === 'success') {
-                icon.className = 'flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center bg-green-100';
-                icon.innerHTML = '<i class="fas fa-check text-green-600 text-sm"></i>';
+                titleEl.textContent = 'สำเร็จ';
+                icon.className = 'flex-shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg bg-gradient-to-br from-green-500 to-emerald-600';
+                icon.innerHTML = '<i class="fas fa-check text-white text-lg"></i>';
+                notificationCard.className = 'bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl p-5 transform transition-all duration-300 ease-out';
+                progressBar.className = 'h-full bg-gradient-to-r from-green-500 to-emerald-600 transition-all duration-75 ease-linear rounded-full';
             } else if (type === 'error') {
-                icon.className = 'flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center bg-red-100';
-                icon.innerHTML = '<i class="fas fa-times text-red-600 text-sm"></i>';
+                titleEl.textContent = 'เกิดข้อผิดพลาด';
+                icon.className = 'flex-shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg bg-gradient-to-br from-red-500 to-rose-600';
+                icon.innerHTML = '<i class="fas fa-exclamation-triangle text-white text-lg"></i>';
+                notificationCard.className = 'bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl p-5 transform transition-all duration-300 ease-out';
+                progressBar.className = 'h-full bg-gradient-to-r from-red-500 to-rose-600 transition-all duration-75 ease-linear rounded-full';
             } else if (type === 'warning') {
-                icon.className = 'flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center bg-yellow-100';
-                icon.innerHTML = '<i class="fas fa-exclamation text-yellow-600 text-sm"></i>';
+                titleEl.textContent = 'คำเตือน';
+                icon.className = 'flex-shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg bg-gradient-to-br from-yellow-500 to-orange-600';
+                icon.innerHTML = '<i class="fas fa-exclamation text-white text-lg"></i>';
+                notificationCard.className = 'bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl p-5 transform transition-all duration-300 ease-out';
+                progressBar.className = 'h-full bg-gradient-to-r from-yellow-500 to-orange-600 transition-all duration-75 ease-linear rounded-full';
+            } else if (type === 'info') {
+                titleEl.textContent = 'ข้อมูล';
+                icon.className = 'flex-shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center shadow-lg bg-gradient-to-br from-blue-500 to-indigo-600';
+                icon.innerHTML = '<i class="fas fa-info text-white text-lg"></i>';
+                notificationCard.className = 'bg-white/95 backdrop-blur-xl rounded-2xl shadow-2xl p-5 transform transition-all duration-300 ease-out';
+                progressBar.className = 'h-full bg-gradient-to-r from-blue-500 to-indigo-600 transition-all duration-75 ease-linear rounded-full';
             }
             
+            messageEl.textContent = cleanMessage;
+            
+            // Show notification with animation
             notification.classList.remove('hidden');
+            
+            // Animate progress bar
+            progressBar.style.width = '100%';
+            setTimeout(() => {
+                progressBar.style.width = '0%';
+            }, 100);
             
             // Auto hide after 5 seconds
             setTimeout(() => {
@@ -3912,7 +4336,43 @@
         }
 
         function hideNotification() {
-            document.getElementById('notification').classList.add('hidden');
+            const notification = document.getElementById('notification');
+            const notificationCard = document.getElementById('notificationCard');
+            const progressBar = document.getElementById('notificationProgressBar');
+            
+            // Add fade out animation
+            notificationCard.style.transform = 'translateX(100%) scale(0.95)';
+            notificationCard.style.opacity = '0';
+            
+            // Reset progress bar
+            progressBar.style.width = '100%';
+            
+            setTimeout(() => {
+                notification.classList.add('hidden');
+                // Reset transform for next notification
+                notificationCard.style.transform = 'translateX(0) scale(1)';
+                notificationCard.style.opacity = '1';
+            }, 300);
+        }
+
+        // Guide Tab Management
+        function switchGuideTab(tabName) {
+            const teacherTab = document.getElementById('teacherGuideTab');
+            const studentTab = document.getElementById('studentGuideTab');
+            const teacherGuide = document.getElementById('teacherGuide');
+            const studentGuide = document.getElementById('studentGuide');
+            
+            if (tabName === 'teacher') {
+                teacherTab.className = 'px-8 py-4 rounded-xl text-lg font-semibold transition-all duration-300 bg-white text-purple-600 shadow-lg';
+                studentTab.className = 'px-8 py-4 rounded-xl text-lg font-semibold transition-all duration-300 text-gray-600 hover:text-purple-600';
+                teacherGuide.classList.remove('hidden');
+                studentGuide.classList.add('hidden');
+            } else {
+                studentTab.className = 'px-8 py-4 rounded-xl text-lg font-semibold transition-all duration-300 bg-white text-pink-600 shadow-lg';
+                teacherTab.className = 'px-8 py-4 rounded-xl text-lg font-semibold transition-all duration-300 text-gray-600 hover:text-purple-600';
+                studentGuide.classList.remove('hidden');
+                teacherGuide.classList.add('hidden');
+            }
         }
 
         // Initialize the app
@@ -3964,5 +4424,5 @@
             }
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9726dc9161788966',t:'MTc1NTc0NTAzMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'972f8ba1c184f4cf',t:'MTc1NTgzNjA4OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
